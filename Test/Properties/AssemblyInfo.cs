@@ -1,14 +1,15 @@
 ﻿using System.Reflection;
+using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("ImprovedEnum")]
-[assembly: AssemblyDescription("Adds functionality to Enum as ToList and recovery data from annotation attributes")]
+[assembly: AssemblyTitle("Test")]
+[assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Diogo Menezes")]
-[assembly: AssemblyProduct("FakerTest")]
+[assembly: AssemblyCompany("Microsoft")]
+[assembly: AssemblyProduct("Test")]
 [assembly: AssemblyCopyright("Copyright © Microsoft 2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -19,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("20a82d6d-2b47-4b14-bde1-e14b41aad152")]
+[assembly: Guid("e779fa03-aaee-4b57-bc15-fa5c43337238")]
 
 // Version information for an assembly consists of the following four values:
 //

@@ -6,7 +6,7 @@ using System.Linq;
 
 namespace ImprovedEnum.Core
 {
-    public static class ImprovedEnum
+    public static class EnumHelper
     {
         public static T GetEnum<T>(this string value)
         {
@@ -29,7 +29,7 @@ namespace ImprovedEnum.Core
         {
             try
             {
-                var attribute = (IAttribute)@enum.GetType().GetField(@enum.ToString()).GetCustomAttributes(typeof(T), false).FirstOrDefault();
+                var attribute = (IAttribute) @enum.GetType().GetField(@enum.ToString()).GetCustomAttributes(typeof(T), false).FirstOrDefault();
                 return attribute == null ? string.Empty : attribute.Value;
             }
             catch (Exception ex)
@@ -52,7 +52,7 @@ namespace ImprovedEnum.Core
 
         public static string Value(this System.Enum @enum)
         {
-            var value = GetAttributeValue<EnumTextAttribute>(@enum);
+            var value = GetAttributeValue<EnumValueAttribute>(@enum);
             return String.IsNullOrEmpty(value) ? @enum.GetHashCode().ToString() : value;
         }
 

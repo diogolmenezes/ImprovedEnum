@@ -3,11 +3,11 @@ using System;
 
 namespace ImprovedEnum.Core.Attributes
 {
-    public class EnumDescriptionAttribute : Attribute, IAttribute
+    public class MyAttribute : Attribute, IAttribute
     {
         public string Value { get; set; }
 
-        public EnumDescriptionAttribute(string value)
+        public MyAttribute(string value)
         {
             Value = value;
         }

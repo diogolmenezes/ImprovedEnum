@@ -1,10 +1,11 @@
-﻿using System;
+﻿using ImprovedEnum.Core.Interfaces;
+using System;
 
 namespace ImprovedEnum.Core.Attributes
 {
-    public class EnumTextAttribute : Attribute
+    public class EnumTextAttribute : Attribute, IAttribute
     {
-        public string Value { get; protected set; }
+        public string Value { get; set; }
 
         public EnumTextAttribute(string value)
         {

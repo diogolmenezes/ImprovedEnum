@@ -42,7 +42,7 @@
     <Compile Include="Attributes\EnumDescriptionAttribute.cs" />
     <Compile Include="Attributes\EnumTextAttribute.cs" />
     <Compile Include="Attributes\EnumValueAttribute.cs" />
-    <Compile Include="EnumExtensions.cs" />
+    <Compile Include="EnumHelper.cs" />
     <Compile Include="Interfaces\IAttribute.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
