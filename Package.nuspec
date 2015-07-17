@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package>
+    <metadata>
+        <id>ImprovedEnum</id>
+        <version>1.0.0</version>
+        <authors>Diogo Menezes</authors>
+        <owners>Diogo Menezes</owners>
+        <description>ImprovedEnum adds functionality to .net Enum as ToList and recovery data from annotation attributes</description>
+        <language>en-US</language>
+        <projectUrl>https://github.com/diogolmenezes/ImprovedEnum</projectUrl>
+        <licenseUrl>https://github.com/diogolmenezes/ImprovedEnum/blob/master/LICENSE</licenseUrl>
+        <tags>enum improve tolist metadata</tags>
+    </metadata>
+</package>
+
+
